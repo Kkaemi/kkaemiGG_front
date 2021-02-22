@@ -1,0 +1,58 @@
+@import "antd/dist/antd.css";
+
+.menu {
+  display: flex;
+  height: 50px;
+  background-color: #223046;
+}
+
+.menu__logo {
+  display: flex;
+  align-items: center;
+  background-color: #5483e8;
+}
+
+.menu__logo a {
+  font-family: Helvetica, "Malgun Gothic", "Apple SD Gothic Neo", AppleGothic,
+    Dotum, Arial, Tahoma;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  padding: 0 10px;
+}
+
+.menu__container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.nav__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nav__item--default {
+  background-color: #5483e8;
+  cursor: unset;
+}
+
+.nav__item .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.nav__item span {
+  margin-left: 5px;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
