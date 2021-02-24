@@ -1,0 +1,55 @@
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.index-logo {
+  padding: 32px 0;
+}
+
+.index-logo img {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.summoner-search-form {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.summoner-search-form__text {
+  display: block;
+  width: 100%;
+  padding: 15px 65px 18px 17px;
+  background: none;
+  border: none;
+  line-height: 17px;
+  font-size: 14px;
+  color: #9b9b9b;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 19%);
+}
+
+.summoner-search-form__button {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px 10px 0 0;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+.summoner-search-form__button:hover {
+  background-color: #66afe9;
+  color: #fff;
+  cursor: pointer;
+}

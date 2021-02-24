@@ -1,4 +1,5 @@
 @import "antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 
 .menu {
   display: flex;
@@ -13,8 +14,7 @@
 }
 
 .menu__logo a {
-  font-family: Helvetica, "Malgun Gothic", "Apple SD Gothic Neo", AppleGothic,
-    Dotum, Arial, Tahoma;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 900;
   color: white;

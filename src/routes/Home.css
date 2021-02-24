@@ -1,6 +1,6 @@
 @import "antd/dist/antd.css";
 
-body {
+.home {
   background-color: #5483e8;
 }
 
@@ -10,6 +10,16 @@ body {
   border-bottom: 1px solid #4171d6;
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+
+.ant-menu-horizontal > .ant-menu-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,

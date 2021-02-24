@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { Menu, Button } from "antd";
+import { Link } from "react-router-dom";
+import { Button } from "antd";
 import "./NavBar.css";
+
 import LoL from "../images/lol.png";
 import Maplestory from "../images/maplestory.png";
 
@@ -9,7 +11,7 @@ class NavBar extends Component {
     return (
       <nav className="menu">
         <div className="menu__logo">
-          <a href="/">KKAEMI.GG</a>
+          <Link to="/">KKAEMI.GG</Link>
         </div>
         <div className="menu__container">
           <div className="nav__item nav__item--default">
@@ -22,7 +24,9 @@ class NavBar extends Component {
           </div>
         </div>
         <div className="button-group">
-          <Button type="primary">로그인</Button>
+          <Link to="/login">
+            <Button type="primary">로그인</Button>
+          </Link>
         </div>
       </nav>
     );

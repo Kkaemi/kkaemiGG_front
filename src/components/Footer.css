@@ -3,4 +3,7 @@
 .footer {
   text-align: center;
   color: white;
+  width: 1080px;
+  margin: 0 auto;
+  padding: 40px 0;
 }
